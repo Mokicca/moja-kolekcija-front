@@ -16,7 +16,7 @@ export default function Recommended() {
 
     // Dohvaćanje postova
     // !!! OVDJE STAVI SVOJ LINK S RENDER-A !!!
-    const API_URL = 'https://moj-backend.onrender.com';
+    const API_URL = 'https://moja-kolekcija.onrender.com';
     
     fetch(`${API_URL}/api/posts`)
       .then(res => res.json())
@@ -43,3 +43,4 @@ export default function Recommended() {
     </div>
   );
 }
+
