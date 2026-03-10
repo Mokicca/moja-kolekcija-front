@@ -1,0 +1,19 @@
+/* Osnovni stilovi */
+a {
+  text-decoration: none;
+  color: blue;
+}
+input {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
+button {
+  padding: 10px 20px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
