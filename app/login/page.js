@@ -11,7 +11,7 @@ export default function Login() {
     e.preventDefault();
     
     // !!! OVDJE STAVI SVOJ LINK S RENDER-A !!!
-    const API_URL = 'https://moj-backend.onrender.com'; 
+    const API_URL = 'https://moja-kolekcija.onrender.com'; 
     
     try {
       const res = await fetch(`${API_URL}/api/login`, {
@@ -53,4 +53,5 @@ export default function Login() {
       <p style={{ marginTop: '10px' }}>Nemate račun? <a href="/register">Registrirajte se</a></p>
     </div>
   );
+
 }
