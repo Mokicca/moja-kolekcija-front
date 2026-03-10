@@ -11,7 +11,7 @@ export default function Register() {
     e.preventDefault();
     
     // !!! OVDJE STAVI SVOJ LINK S RENDER-A !!!
-    const API_URL = 'https://moj-backend.onrender.com';
+    const API_URL = 'https://moja-kolekcija.onrender.com';
     
     try {
       const res = await fetch(`${API_URL}/api/register`, {
@@ -51,4 +51,5 @@ export default function Register() {
       </form>
     </div>
   );
+
 }
